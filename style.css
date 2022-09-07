@@ -1,5 +1,10 @@
 .link-conteneur{
+    display:flex;
+    justify-content:space-around;
     background-color:green;
+    height:30px;
+    width:25% ;
+    margin: 15px;
 }
 .conteneur{
     background-color: green;
@@ -7,4 +12,9 @@
 }
 h2{
     text-align: center;
+}
+a{
+    color:black;
+    text-decoration: none;
+    
 }
