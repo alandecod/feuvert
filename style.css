@@ -20,5 +20,6 @@ a{
 @media screen and (max-device-width:480px {
    .link-conteneur{
      display:inline-block;
+     background-color:grey;
    }
 }
