@@ -19,8 +19,6 @@ a{
 }
 @media screen and (max-device-width:980px {
    .link-conteneur{
-    display :flex;
-    justify-content:space-around;
-    width:25%;
+     display:inline;
    }
 }
