@@ -7,8 +7,10 @@
     margin: 15px;
 }
 @media screen and (max-device-width:980px {
+   .link-conteneur{
     display :flex;
     justify-content:space-around;
+   }
 }
 .conteneur{
     background-color: green;
