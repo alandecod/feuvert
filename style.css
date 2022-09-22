@@ -6,13 +6,6 @@
     width:25% ;
     margin: 15px;
 }
-@media screen and (max-device-width:980px {
-   .link-conteneur{
-    display :flex;
-    justify-content:space-around;
-    width:30px;
-   }
-}
 .conteneur{
     background-color: green;
     border: solid 3px;
@@ -23,5 +16,11 @@ h2{
 a{
     color:black;
     text-decoration: none;
-    
+}
+@media screen and (max-device-width:980px {
+   .link-conteneur{
+    display :flex;
+    justify-content:space-around;
+    width:30px;
+   }
 }
