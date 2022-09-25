@@ -1,16 +1,16 @@
 .link-conteneur{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     background-color:green;
-    height:30px;
-    width:25% ;
-    margin: 15px;
+    height: 30px;
+    width: 30%;
+    margin :20px;
 }
 .conteneur{
     display:flex;
     background-color: green;
-    border: solid 3px;
-    width:25%;
+    border: solid 3px yellow;
+    width:30%;
 }
 h2{
     text-align: center;
@@ -20,11 +20,16 @@ a{
     text-decoration: none;
 }
 @media screen and (max-width:480px){
+    a{
+        color:white;
+    }
    .link-conteneur{
-     display:inline-block;
+     display:flex;
      background-color:grey;
    }
    .conteneur{
-     background-color: grey;
+    background-color: grey;
+    display:flex;
+    flex-direction:column;
    }
 }
