@@ -7,8 +7,11 @@
     margin: 15px;
 }
 .conteneur{
+    display:flex;
+    
     background-color: green;
     border: solid 3px;
+    width:25%;
 }
 h2{
     text-align: center;
