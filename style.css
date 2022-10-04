@@ -38,6 +38,7 @@ a:hover{
      display:flex;
      justify-content: space-between;
      width: 270px;
+     height: 40px;
      background-color:grey;
      border: solid 4px black;
    }
