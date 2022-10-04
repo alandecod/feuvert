@@ -50,4 +50,8 @@ a:hover{
    }
 }
 a:hover{
-    color: blue;}
+    color: blue;
+}
+.cache{
+    display:none;
+}
