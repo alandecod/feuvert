@@ -37,7 +37,7 @@ a:hover{
    .link-conteneur{
      display:flex;
      justify-content: space-between;
-     width: 160px;
+     width: 270px;
      background-color:grey;
      border: solid 4px black;
    }
