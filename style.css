@@ -55,3 +55,7 @@ a:hover{
 .cache{
     display:none;
 }
+.marque:hover {
+    display: inline-block;
+    color:white;
+}
