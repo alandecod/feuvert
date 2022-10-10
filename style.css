@@ -49,13 +49,9 @@ a:hover{
     width: fit-content;
    }
 }
-a:hover{
-    color: blue;
-}
 .cache{
-    display:none;
+    color: green;
 }
-.marque:hover {
-    display: inline-block;
-    color:white;
+.marque:hover .cache{
+    color: blue;
 }
