@@ -50,8 +50,9 @@ a:hover{
    }
 }
 .cache{
-    color: green;
+   background-color: white;
+   display:block;
 }
-.marque:hover .cache{
-    color: blue;
+.cacher{
+    display:none;
 }
