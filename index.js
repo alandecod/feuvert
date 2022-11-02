@@ -3,17 +3,12 @@ const cacheCache = document.querySelectorAll(".cache");
 
 
 function toggle(){
-    if(cacheCache.style.display === "none"){
-        cacheCache.style.display = "block";
+    cacheCache.style.display;
+    if(cacheCache.style.display != "none"){
+        cacheCache.style.display = "none";
     }
     else{
-        cacheCache.style.display = "none";
-    };
-}
-
-classeCache.forEach(classe =>{
-    classe.addEventListener("click",toggle)})
-
-
-cacheCache.forEach(clsCacher =>{
-    clsCacher.addEventListener("click",toggle)})
+        cacheCache.style.display = "block";
+    }
+};
+classeCache.onclick = toggle;
