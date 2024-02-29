@@ -1,14 +1,7 @@
-const classeCache = document.querySelectorAll(".marque");
-const cacheCache = document.querySelectorAll(".cache");
-
+const marqueCache = document.getElementsByClassName("marque");
+const cacheCache = document.getElementsByClassName("cache");
 
 function toggle(){
-    cacheCache.style.display;
-    if(cacheCache.style.display != "none"){
-        cacheCache.style.display = "none";
-    }
-    else{
-        cacheCache.style.display = "block";
-    }
+
+    cacheCache.display = "none";
 };
-classeCache.onclick = toggle;
