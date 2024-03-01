@@ -1,7 +1,10 @@
-const marqueCache = document.getElementsByClassName("marque");
-const cacheCache = document.getElementsByClassName("cache");
 
-function toggle(){
+var coche = document.getElementsByClassName("marque");
 
-    cacheCache.display = "none";
+function tug(){
+
+    var oust = document.getElementsByClassName("cache");
+    oust.style.display="none";
 };
+
+
