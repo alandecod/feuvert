@@ -5,9 +5,9 @@ body{
     display:flex;
     justify-content:space-between;
     background-color:whitesmoke;
-    width: 50%;
+    width: 70%;
     height: 30px;
-    padding:5px;
+    padding: 6px;
     
 }
 .conteneur{
@@ -30,12 +30,15 @@ a{
 a:hover{
     color: blue;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:500px){
     a{
         color:white;
     }
    .link-conteneur{
-     display:flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    display:flex;
      justify-content: space-between;
      width: 270px;
      height: 40px;
@@ -49,10 +52,21 @@ a:hover{
     width: fit-content;
    }
 }
+
 .marque{
+    text-transform: uppercase;
+    display:flex;
     background-color: grey;
-}
+    width: 50%;
+    margin:5px;
+    padding:5px;
+    justify-content:center;}
+
 .cache{
    background-color: white;
-   display:block;
+   display:none;
+   width:40%;
+   margin:5px;
+   padding:10px;
+   border:solid 1px black;
 }

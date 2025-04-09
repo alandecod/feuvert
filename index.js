@@ -1,9 +1,16 @@
+function toggleCacheDisplay() {
+  var marques = document.getElementsByClassName("marque");
 
-var coche = document.getElementsByClassName("marque");
+  for (let i = 0; i < marques.length; i++) {
+    marques[i].addEventListener("click", function () {
+      var caches = this.nextElementSibling; // Sélectionne l'élément .cache suivant
+      if (caches.style.display === "block") {
+        caches.style.display = "none";
+      } else {
+        caches.style.display = "block";
+      }
+    });
+  }
+}
 
-function tug(){
-    var oust = document.getElementsByClassName("cache");
-    oust.style.display="none";
-};
-
-
+toggleCacheDisplay();
